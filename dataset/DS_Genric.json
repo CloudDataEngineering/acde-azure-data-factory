@@ -1,10 +1,6 @@
 {
 	"name": "DS_Genric",
 	"properties": {
-		"linkedServiceName": {
-			"referenceName": "LS_ADF",
-			"type": "LinkedServiceReference"
-		},
 		"parameters": {
 			"Container_Name": {
 				"type": "string"
