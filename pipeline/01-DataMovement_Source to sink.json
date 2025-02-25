@@ -1,9 +1,9 @@
 {
-	"name": "01-Copy-Activities",
+	"name": "01-DataMovement_Source to sink",
 	"properties": {
 		"activities": [
 			{
-				"name": "Copy data Activities",
+				"name": "Copy data movement",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
@@ -50,7 +50,7 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "DS_Genric",
+						"referenceName": "DS_ADLS_Source",
 						"type": "DatasetReference",
 						"parameters": {
 							"Container_Name": "input"
@@ -59,7 +59,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "DS_Genric",
+						"referenceName": "DS_ADLS_Sink",
 						"type": "DatasetReference",
 						"parameters": {
 							"Container_Name": "output"
@@ -69,7 +69,7 @@
 			}
 		],
 		"folder": {
-			"name": "01-ADF-Classes"
+			"name": "01-ADF-training"
 		},
 		"annotations": []
 	}

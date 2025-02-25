@@ -1,8 +1,8 @@
 {
-	"name": "DS_Genric",
+	"name": "DS_ADLS_Sink",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "LS_ADF",
+			"referenceName": "LS_ADLS",
 			"type": "LinkedServiceReference"
 		},
 		"parameters": {
