@@ -1,0 +1,9 @@
+{
+	"name": "fdlazureadf",
+	"location": "westeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4ab9dd58-61e6-498e-9f55-e56dc3b75934",
+		"tenantId": "da544bca-4fc3-4b6c-b2cb-1816817f7319"
+	}
+}
